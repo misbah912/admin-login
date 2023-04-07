@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    width: 700px;
+    gap: 25px;
+    margin: 250px 250px 250px 400px;
+    padding: 40px 40px 60px 40px;
+    background-image: linear-gradient(to right, rgba(4, 4, 4, 0.079), rgb(131, 116, 116));
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.flex-container .flex-item{
+    margin-left: 30px;
+}
+
+.flex-item h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+.flex-item .uname, .pass{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.flex-item .user-name, .password{
+    width: 300px;
+    height: 22px;
+}
+.flex-item .forgot-pass{
+    color: black ;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.flex-container .flex-item-2{
+    align-self: self-end;
+    position: absolute;
+    margin: 54px;
+}
+
+.flex-item-2 .submit{
+    padding: 4px 12px 4px 12px;
+    margin: 62px 0px 62px 0px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 2px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
